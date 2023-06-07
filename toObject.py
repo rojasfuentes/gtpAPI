@@ -10,10 +10,10 @@ def filter_json_by_keywords(json_file_path, keywords):
     return filtered_data
 
 json_file_paths = [
-    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\dataset_twitter-scraper_2023-04-13_14-49-39-737.json',
-    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\dataset_twitter-scraper_2023-04-13_14-44-09-779.json',
-    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\covid.json',
-    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\2021 100.json',
+    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\corpus1.json',
+    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\corpus2.json',
+    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\corpus3.json',
+    r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\json\corpus4.json',
     # Agrega aquí más paths de archivos JSON
 ]
 

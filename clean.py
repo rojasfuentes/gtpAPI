@@ -1,7 +1,7 @@
 import pandas as pd
 
 data = []
-with open(r'C:\Users\JFROJAS\Desktop\gtpAPI\respuestas.txt', 'r',encoding="utf-8") as file:
+with open(r'C:\Users\Mayo\OneDrive - Universidad Autónoma del Estado de México\Desktop\GTP\results\respuestas.txt', 'r',encoding="utf-8") as file:
     lines = file.readlines()
     tweet = ''
     respuesta = ''
@@ -28,3 +28,5 @@ df['Clasificación'] = df['Respuesta'].apply(lambda x: 'Bueno' if 'bueno' in x.l
 #df.to_cs(r'C:\Users\JFROJAS\Desktop\gtpAPI\respuestas.csv', index=False)
 
 frecuencia_clasificacion = df['Clasificación'].value_counts()
+
+print(frecuencia_clasificacion)
